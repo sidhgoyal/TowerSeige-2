@@ -23,61 +23,61 @@ function setup() {
 
   //first stack//////////////////////
   //1 row/////
-  box1 = new Box(150,315,30,30,"lightblue");
-  box2 = new Box(180,315,30,30,"lightblue");
-  box3 = new Box(210,315,30,30,"lightblue");
-  box4 = new Box(240,315,30,30,"lightblue");
-  box5 = new Box(270,315,30,30,"lightblue");
-  box6 = new Box(300,315,30,30,"lightblue");
-  box7 = new Box(330,315,30,30,"lightblue");
-  box8 = new Box(360,315,30,30,"lightblue");
+  box1 = new Box(150,315,15,15,"lightblue");
+  box2 = new Box(180,315,15,15,"lightblue");
+  box3 = new Box(210,315,15,15,"lightblue");
+  box4 = new Box(240,315,15,15,"lightblue");
+  box5 = new Box(270,315,15,15,"lightblue");
+  box6 = new Box(300,315,15,15,"lightblue");
+  box7 = new Box(330,315,15,15,"lightblue");
+  box8 = new Box(360,315,15,15,"lightblue");
 
   //2 row/////
-  box10 = new Box(180,285,30,30,"lightblue");
-  box11 = new Box(210,285,30,30,"lightblue");
-  box12 = new Box(240,285,30,30,"lightblue");
-  box13 = new Box(270,285,30,30,"lightblue");
-  box14 = new Box(300,285,30,30,"lightblue");
-  box15 = new Box(330,285,30,30,"lightblue");
+  box10 = new Box(180,285,15,15,"lightblue");
+  box11 = new Box(210,285,15,15,"lightblue");
+  box12 = new Box(240,285,15,15,"lightblue");
+  box13 = new Box(270,285,15,15,"lightblue");
+  box14 = new Box(300,285,15,15,"lightblue");
+  box15 = new Box(330,285,15,15,"lightblue");
 
   //3 row/////
-  box17 = new Box(210,255,30,30,"lightblue");
-  box18 = new Box(240,255,30,30,"lightblue");
-  box19 = new Box(270,255,30,30,"lightblue");
-  box20 = new Box(300,255,30,30,"lightblue");
+  box17 = new Box(210,255,15,15,"lightblue");
+  box18 = new Box(240,255,15,15,"lightblue");
+  box19 = new Box(270,255,15,15,"lightblue");
+  box20 = new Box(300,255,15,15,"lightblue");
   
   //4 row/////
-  box16 = new Box(240,225,30,30,"lightblue");
-  box21 = new Box(270,225,30,30,"lightblue");
+  box16 = new Box(240,225,15,15,"lightblue");
+  box21 = new Box(270,225,15,15,"lightblue");
 
   //second stack//////////////////////
   //1 row/////
-  box1s = new Box(450,190,30,30,"lightblue");
-  box2s = new Box(480,190,30,30,"lightblue");
-  box3s = new Box(510,190,30,30,"lightblue");
-  box4s = new Box(540,190,30,30,"lightblue");
-  box5s = new Box(570,190,30,30,"lightblue");
-  box6s = new Box(600,190,30,30,"lightblue");
-  box7s = new Box(630,190,30,30,"lightblue");
-  box8s = new Box(660,190,30,30,"lightblue");
+  box1s = new Box(450,190,15,15,"lightblue");
+  box2s = new Box(480,190,15,15,"lightblue");
+  box3s = new Box(510,190,15,15,"lightblue");
+  box4s = new Box(540,190,15,15,"lightblue");
+  box5s = new Box(570,190,15,15,"lightblue");
+  box6s = new Box(600,190,15,15,"lightblue");
+  box7s = new Box(630,190,15,15,"lightblue");
+  box8s = new Box(660,190,15,15,"lightblue");
 
   //2 row/////
-  box10s = new Box(480,130,30,30,"lightblue");
-  box11s = new Box(510,130,30,30,"lightblue");
-  box12s = new Box(540,130,30,30,"lightblue");
-  box13s = new Box(570,130,30,30,"lightblue");
-  box14s = new Box(600,130,30,30,"lightblue");
-  box15s = new Box(630,130,30,30,"lightblue");
+  box10s = new Box(480,133,15,15,"lightblue");
+  box11s = new Box(510,133,15,15,"lightblue");
+  box12s = new Box(540,133,15,15,"lightblue");
+  box13s = new Box(570,133,15,15,"lightblue");
+  box14s = new Box(600,133,15,15,"lightblue");
+  box15s = new Box(630,133,15,15,"lightblue");
 
   //3 row/////
-  box17s = new Box(510,100,30,30,"lightblue");
-  box18s = new Box(540,100,30,30,"lightblue");
-  box19s = new Box(570,100,30,30,"lightblue");
-  box20s = new Box(600,100,30,30,"lightblue");
+  box17s = new Box(510,105,15,15,"lightblue");
+  box18s = new Box(540,105,15,15,"lightblue");
+  box19s = new Box(570,105,15,15,"lightblue");
+  box20s = new Box(600,105,15,15,"lightblue");
 
   //4 row/////
-  box16s = new Box(540,70,30,30,"lightblue");
-  box21s = new Box(570,70,30,30,"lightblue");
+  box16s = new Box(540,77,15,15,"lightblue");
+  box21s = new Box(570,77,15,15,"lightblue");
 
   polygon = new Polygon(100,200,30,30);
   slingshot = new SlingShot(polygon.body,{x:100,y:200})
